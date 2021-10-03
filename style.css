@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* text-align: center; */
+    background-image: url(https://media.istockphoto.com/photos/timeline-planning-checklist-or-business-plan-with-calendar-date-on-picture-id1211255735?k=6&m=1211255735&s=612x612&w=0&h=P0HukhuiegaRd5UHLwcnRgAlSUP5tQTUcCLKyNm5uNk=);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+.showtodo{
+    width: 80%;
+    margin-top: 20px;
+    margin-left:10%;
+ border: 1px solid black;
+    height: 450px;
+    overflow: auto;
+}
+.tododiv{
+    width: 90%;
+    margin: 5px 5%;
+    height: 50px;
+    border: 1px solid black;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    /* align-content: center; */
+}
+.para{
+    font-size: 30px;
+    margin: 10px;
+    flex: 0.8;
+}
+.underline{
+    text-decoration: line-through;
+}
+.checkbox{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    flex: 0.1;
+}
+.dltbtn{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bolder;
+    flex: 0.1;
+}
+.addtodo{
+    width: 80%;
+    margin: 0px 10%;
+ border: 1px solid black;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#todotext{
+    width: 80%;
+    height: 50px;
+    font-size: 30px;
+    padding: 10px 15px;
+}
+#addbtn{
+    height: 50px;
+    font-size: 30px;
+    padding: 10px;
+}
